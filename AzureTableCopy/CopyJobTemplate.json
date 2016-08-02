@@ -1,0 +1,14 @@
+﻿{
+  "sourceStorageConnectionString": "SOURCE_STORAGEACCOUNT_CONNECTION_STRING",
+  "destinationStorageConnectionString": "DESTINATION_STORAGEACCOUNT_CONNECTION_STRING",
+  "tables": [
+    {
+      "source": "sourceTable1",
+      "destination": "destinationTable1"
+    },
+    {
+      "source": "sourceTable2",
+      "destination": "destinationTable2"
+    }
+  ]
+}
