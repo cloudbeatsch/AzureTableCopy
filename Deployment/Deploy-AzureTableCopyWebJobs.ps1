@@ -54,7 +54,7 @@ Param(
 	Write-Host "Done"
 
 	DeployAndConfigureCSharpWebjob AzureTableCopyStep1Web.exe "..\AzureTableCopyStep1WebJob\bin\Release" AzureTableCopyStep1WebJob Continuous
-	DeployAndConfigureCSharpWebjob PrepareLabelingTableStep2WebJob.exe "..\AzureTableCopyStep2WebJob\bin\Release" AzureTableCopyStep2WebJob Continuous
+	DeployAndConfigureCSharpWebjob AzureTableCopyStep2Web.exe "..\AzureTableCopyStep2WebJob\bin\Release" AzureTableCopyStep2WebJob Continuous
 	Push-Location;
 
 
